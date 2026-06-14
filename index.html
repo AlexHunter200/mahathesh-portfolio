@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahathesh Mavalavan | Footballer Portfolio</title>
+    <meta name="description" content="Official football portfolio of Mahathesh Mavalavan, Malaysian amateur football player. Highlights position versatility, academy training at Bloomball Academy, club history, and achievements.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <span class="logo-num">20</span>
+                <span class="logo-name">MAHATHESH</span>
+            </a>
+            <nav class="nav-menu">
+                <a href="#profile" class="nav-link">Profile</a>
+                <a href="#cards" class="nav-link">Topps Cards</a>
+                <a href="#tactics" class="nav-link">Tactical Pitch</a>
+                <a href="#career" class="nav-link">Career</a>
+                <a href="#honors" class="nav-link">Honors</a>
+            </nav>
+            <div class="header-actions">
+                <button onclick="window.print()" class="btn btn-primary btn-print" id="print-btn-nav">
+                    <i class="fa-solid fa-file-pdf"></i> Download PDF
+                </button>
+            </div>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav-overlay">
+        <nav class="mobile-nav-links">
+            <a href="#profile" class="mobile-nav-link">Profile</a>
+            <a href="#cards" class="mobile-nav-link">Topps Cards</a>
+            <a href="#tactics" class="mobile-nav-link">Tactical Pitch</a>
+            <a href="#career" class="mobile-nav-link">Career</a>
+            <a href="#honors" class="mobile-nav-link">Honors</a>
+            <button onclick="window.print()" class="btn btn-primary mobile-btn-print">
+                <i class="fa-solid fa-file-pdf"></i> Download PDF
+            </button>
+        </nav>
+    </div>
+
+    <main class="content-wrapper">
+        <!-- Hero / Profile Section -->
+        <section id="profile" class="hero-section">
+            <div class="hero-bg-glow"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge badge-accent">Malaysian Amateur Footballer</span>
+                    <h1 class="hero-title">MAHATHESH<br><span class="text-gradient">MAVALAVAN</span></h1>
+                    
+                    <!-- Quick Stats Badges -->
+                    <div class="quick-stats">
+                        <div class="q-stat">
+                            <span class="q-label">Age</span>
+                            <span class="q-val">22</span>
+                        </div>
+                        <div class="q-stat">
+                            <span class="q-label">Nationality</span>
+                            <span class="q-val">Malaysia 🇲🇾</span>
+                        </div>
+                        <div class="q-stat">
+                            <span class="q-label">Natural Position</span>
+                            <span class="q-val text-yellow">Left Wing (LW)</span>
+                        </div>
+                        <div class="q-stat">
+                            <span class="q-label">Academy</span>
+                            <span class="q-val">Bloomball</span>
+                        </div>
+                    </div>
+
+                    <p class="hero-bio">
+                        An athletic and highly versatile 22-year-old Malaysian football player. Known for explosive runs on the left wing, Mahathesh possesses the unique tactical adaptability to cover multiple key positions across the pitch, including Striker, Right Wing, Midfield (CM/CAM), and Right Back. Currently refining his tactical understanding and technical skill set at the prestigious <strong>Bloomball Academy</strong>.
+                    </p>
+
+                    <div class="hero-actions-group">
+                        <a href="#tactics" class="btn btn-secondary"><i class="fa-solid fa-crosshairs"></i> View Versatility</a>
+                        <button onclick="window.print()" class="btn btn-primary"><i class="fa-solid fa-file-pdf"></i> Get Scout PDF</button>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper">
+                    <div class="image-border-glow"></div>
+                    <div class="image-container">
+                        <!-- main profile image from mahathesh files -->
+                        <img src="assets/images/IMG_8805.jpg" alt="Mahathesh Mavalavan - Bloomball Academy" class="profile-img">
+                    </div>
+                    <!-- Overlay Badge -->
+                    <div class="floating-badge">
+                        <span class="fb-number">20</span>
+                        <span class="fb-text">TBB FC / Bloomball</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Topps Card Showcase Section -->
+        <section id="cards" class="cards-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Player Attributes</span>
+                    <h2 class="section-title">TOPPS TRADING CARDS</h2>
+                    <p class="section-subtitle">Visual representation of player stats, position ratings, and club attributes</p>
+                </div>
+
+                <div class="cards-grid">
+                    <!-- Card 1: TBB FC Back View / Super Sub -->
+                    <div class="topps-card-container">
+                        <div class="topps-card-header">
+                            <h3>Taman Bernam FC (TBB FC)</h3>
+                            <span class="jersey-num">No. 20</span>
+                        </div>
+                        <div class="topps-img-wrapper">
+                            <img src="assets/images/Skill (2).png" alt="Mahathesh Mavalavan - TBB FC Topps Card" class="topps-img">
+                        </div>
+                        <div class="topps-card-desc">
+                            <h4>TBB FC "Super Sub" Profile</h4>
+                            <p>Featuring stats for TBB FC. Highlights high-impact forward presence and attacking threat off the bench, boasting an 87 Attack rating.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Man United / Chevrolet Front View -->
+                    <div class="topps-card-container">
+                        <div class="topps-card-header">
+                            <h3>Manchester United Theme</h3>
+                            <span class="jersey-num">LW Rating</span>
+                        </div>
+                        <div class="topps-img-wrapper">
+                            <img src="assets/images/Skill.png" alt="Mahathesh Mavalavan - Winger Theme Topps Card" class="topps-img">
+                        </div>
+                        <div class="topps-card-desc">
+                            <h4>Attacking Winger Profile</h4>
+                            <p>Showcasing detailed player ratings: <strong>89 Speed</strong>, <strong>83 Skill</strong>, and <strong>88 Passing</strong>, representing his core playstyle on the left flank.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Pitch Section -->
+        <section id="tactics" class="tactics-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Tactical Utility</span>
+                    <h2 class="section-title">POSITION VERSATILITY</h2>
+                    <p class="section-subtitle">Select a position node on the tactical board to view role details and key traits</p>
+                </div>
+
+                <div class="tactics-grid">
+                    <!-- Left: Interactive CSS Football Pitch -->
+                    <div class="pitch-container">
+                        <div class="football-pitch">
+                            <!-- Pitch Lines -->
+                            <div class="pitch-line center-line"></div>
+                            <div class="pitch-line center-circle"></div>
+                            <div class="pitch-line penalty-area-top"></div>
+                            <div class="pitch-line penalty-area-bottom"></div>
+                            <div class="pitch-line penalty-spot-top"></div>
+                            <div class="pitch-line penalty-spot-bottom"></div>
+                            <div class="pitch-line goal-area-top"></div>
+                            <div class="pitch-line goal-area-bottom"></div>
+                            
+                            <!-- Interactive Position Nodes -->
+                            <!-- Natural Position: Left Wing -->
+                            <div class="position-node natural active" data-position="LW" style="top: 30%; left: 15%;">
+                                <span class="node-label">LW</span>
+                                <span class="pulse-ring"></span>
+                            </div>
+                            <!-- Striker -->
+                            <div class="position-node" data-position="ST" style="top: 15%; left: 50%;">
+                                <span class="node-label">ST</span>
+                            </div>
+                            <!-- Centre Forward -->
+                            <div class="position-node" data-position="CF" style="top: 25%; left: 50%;">
+                                <span class="node-label">CF</span>
+                            </div>
+                            <!-- Right Wing -->
+                            <div class="position-node" data-position="RW" style="top: 30%; left: 85%;">
+                                <span class="node-label">RW</span>
+                            </div>
+                            <!-- Centre Attacking Midfield -->
+                            <div class="position-node" data-position="CAM" style="top: 45%; left: 50%;">
+                                <span class="node-label">CAM</span>
+                            </div>
+                            <!-- Centre Midfield -->
+                            <div class="position-node" data-position="CM" style="top: 60%; left: 50%;">
+                                <span class="node-label">CM</span>
+                            </div>
+                            <!-- Right Back -->
+                            <div class="position-node" data-position="RB" style="top: 75%; left: 80%;">
+                                <span class="node-label">RB</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Info Panel -->
+                    <div class="tactics-info-panel">
+                        <div class="panel-header">
+                            <span class="role-badge" id="role-type-badge">Primary Position</span>
+                            <h3 class="position-title" id="pos-title">Left Wing (LW)</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p class="role-description" id="pos-desc">
+                                Naturally explosive on the left flank, utilizing pace and dribbling to cut inside on the right foot or provide dangerous crosses into the box.
+                            </p>
+                            
+                            <div class="attributes-container">
+                                <h4>Key Tactical Traits</h4>
+                                <div class="attribute-list" id="pos-attributes">
+                                    <div class="attr-item">
+                                        <span class="attr-name">Pace & Acceleration</span>
+                                        <div class="attr-bar-bg"><div class="attr-bar-fill" style="width: 90%;"></div></div>
+                                        <span class="attr-value">90/100</span>
+                                    </div>
+                                    <div class="attr-item">
+                                        <span class="attr-name">Dribbling & 1v1s</span>
+                                        <div class="attr-bar-bg"><div class="attr-bar-fill" style="width: 85%;"></div></div>
+                                        <span class="attr-value">85/100</span>
+                                    </div>
+                                    <div class="attr-item">
+                                        <span class="attr-name">Crossing & Creativity</span>
+                                        <div class="attr-bar-bg"><div class="attr-bar-fill" style="width: 80%;"></div></div>
+                                        <span class="attr-value">80/100</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tactical-notes">
+                                <h5>Coaches Note</h5>
+                                <p id="pos-coach-note">Highly effective in transitions and counter-attacks, capable of pulling opposition defenders out of position and opening space for central midfielders.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Career Timeline Section -->
+        <section id="career" class="career-section">
+            <div class="career-bg-pattern"></div>
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Journey</span>
+                    <h2 class="section-title">CAREER & CLUBS</h2>
+                    <p class="section-subtitle">Chronological record of football clubs, amateur leagues, and academy representation</p>
+                </div>
+
+                <div class="timeline">
+                    <!-- 2026: Bloomball Academy -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <span class="marker-year">2026</span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="club-badge badge-academy">Academy</span>
+                                <h3 class="club-name">Bloomball Academy</h3>
+                            </div>
+                            <h4 class="role-title">Academy Player (Enrolled January 2026)</h4>
+                            <p class="club-details">
+                                Enrolled in his first formal academy to develop tactical intelligence, positioning, and high-performance physical conditioning. Focuses on advanced winger roles, crossing techniques, and building defensive work rate.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 2025: Taman Bernam FC -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <span class="marker-year">2025</span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="club-badge badge-amateur">Club</span>
+                                <h3 class="club-name">Taman Bernam FC (TBB FC)</h3>
+                            </div>
+                            <h4 class="role-title">Forward / Winger</h4>
+                            <p class="club-details">
+                                Main squad member playing in regional amateur matches. Played predominantly as a winger and forward. Wore jersey number 20, establishing a reputation as a dynamic player capable of shifting the momentum in tight matches.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 2024: Black Squad -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <span class="marker-year">2024</span>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="club-badge badge-amateur">Club</span>
+                                <h3 class="club-name">Black Squad</h3>
+                            </div>
+                            <h4 class="role-title">Midfielder / Winger (April - October)</h4>
+                            <p class="club-details">
+                                Played for the Indian amateur club based in Puchong, Selangor. Developed match sharpness, physical resilience in amateur leagues, and improved mid-game positional transitions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements & Honors Section -->
+        <section id="honors" class="honors-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Achievements</span>
+                    <h2 class="section-title">HONORS & TOURNAMENTS</h2>
+                    <p class="section-subtitle">Record of finishes and competitive representation in regional futsal leagues and school tournaments</p>
+                </div>
+
+                <div class="honors-grid">
+                    <!-- Futsal Taman Bernam League -->
+                    <div class="honor-card">
+                        <div class="honor-icon"><i class="fa-solid fa-trophy text-yellow"></i></div>
+                        <span class="honor-year">2024</span>
+                        <h3>2nd Place (Runner-up)</h3>
+                        <h4>Taman Bernam Futsal League</h4>
+                        <p>Futsal League in Tanjung Malim, Perak. Played as a key winger/playmaker, contributing to defensive transitions and attacking output.</p>
+                    </div>
+
+                    <!-- Hari Kemerdekaan Futsal -->
+                    <div class="honor-card">
+                        <div class="honor-icon"><i class="fa-solid fa-medal text-orange"></i></div>
+                        <span class="honor-year">2024</span>
+                        <h3>3rd Place</h3>
+                        <h4>Futsal Taman Bernam Hari Kemerdekaan</h4>
+                        <p>Independence Day tournament held in Tanjung Malim. Competed against regional amateur teams, displaying high work rate under tournament pressure.</p>
+                    </div>
+
+                    <!-- CSI Football Tournament -->
+                    <div class="honor-card">
+                        <div class="honor-icon"><i class="fa-solid fa-award text-red"></i></div>
+                        <span class="honor-year">2019</span>
+                        <h3>3rd Place</h3>
+                        <h4>CSI's Football Tournament</h4>
+                        <p>High School tournament representing school team. Competed as a winger and attacking midfielder to secure a podium finish.</p>
+                    </div>
+
+                    <!-- Elementary School Tournaments -->
+                    <div class="honor-card">
+                        <div class="honor-icon"><i class="fa-solid fa-shield-halved text-white"></i></div>
+                        <span class="honor-year">Elementary</span>
+                        <h3>Round of 16 & Group Stage</h3>
+                        <h4>Elementary School Tournaments</h4>
+                        <p>Participated in 2 competitive school tournaments, marking the beginning of competitive play and positional fundamentals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <h2>MAHATHESH MAVALAVAN</h2>
+                <p>Malaysian Amateur Footballer | Wing & Midfield Utility</p>
+            </div>
+            <div class="footer-links">
+                <a href="#profile">Profile</a>
+                <a href="#cards">Topps Cards</a>
+                <a href="#tactics">Tactical Pitch</a>
+                <a href="#career">Career</a>
+                <a href="#honors">Honors</a>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 Mahathesh Mavalavan. All rights reserved.</p>
+                <p class="dev-tag">Designed for professional scout and club outreach.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- PDF Printable Container (Optimized for single-page printing) -->
+    <div class="pdf-print-only">
+        <div class="pdf-header">
+            <div class="pdf-header-left">
+                <h1>MAHATHESH MAVALAVAN</h1>
+                <h2>Malaysian Amateur Footballer</h2>
+                <div class="pdf-meta-info">
+                    <span><strong>Age:</strong> 22</span>
+                    <span><strong>Nationality:</strong> Malaysia 🇲🇾</span>
+                    <span><strong>Position:</strong> Left Wing / Wing Utility</span>
+                </div>
+            </div>
+            <div class="pdf-header-right">
+                <!-- Academy Reference -->
+                <span class="pdf-academy-badge">Bloomball Academy</span>
+            </div>
+        </div>
+
+        <div class="pdf-grid">
+            <div class="pdf-col-left">
+                <div class="pdf-section">
+                    <h3>PLAYER PROFILE</h3>
+                    <p>Dynamic 22-year-old Malaysian footballer specializing as an explosive Left Winger, with demonstrated versatility playing across the attack (ST, CF, RW) and support positions (CAM, CM, RB). Enrolled in Bloomball Academy to refine elite technical standards and tactical movement.</p>
+                </div>
+
+                <div class="pdf-section">
+                    <h3>POSITION UTILITY</h3>
+                    <ul class="pdf-positions-list">
+                        <li><strong>Left Wing (LW)</strong>: Natural Position. Explosive winger cutting inside or crossing.</li>
+                        <li><strong>Striker / Centre Forward (ST/CF)</strong>: High attack threat, intelligent off-ball movement.</li>
+                        <li><strong>Right Winger (RW)</strong>: Tactical width and deep crossing runs.</li>
+                        <li><strong>Midfield (CAM/CM)</strong>: Creative playmaking, central ball retention and distribution.</li>
+                        <li><strong>Right Back (RB)</strong>: Energetic tracking, robust overlapping, and strong transitions.</li>
+                    </ul>
+                </div>
+
+                <div class="pdf-section">
+                    <h3>TOURNAMENT HONORS</h3>
+                    <ul class="pdf-honors-list">
+                        <li><strong>2nd Place</strong> - Taman Bernam Futsal League (2024, Tg. Malim)</li>
+                        <li><strong>3rd Place</strong> - Hari Kemerdekaan Futsal (2024, Tg. Malim)</li>
+                        <li><strong>3rd Place</strong> - CSI's Football Tournament (2019, High School)</li>
+                        <li><strong>Round of 16 & Group Stage</strong> - Elementary School Tournaments</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pdf-col-right">
+                <div class="pdf-section">
+                    <h3>CLUB & ACADEMY TIMELINE</h3>
+                    <div class="pdf-timeline">
+                        <div class="pdf-time-item">
+                            <span class="pdf-time-date">2026 - Present</span>
+                            <strong>Bloomball Academy</strong>
+                            <p>First academy enrollment. Intensive technical and tactical development.</p>
+                        </div>
+                        <div class="pdf-time-item">
+                            <span class="pdf-time-date">2025</span>
+                            <strong>Taman Bernam FC (TBB FC)</strong>
+                            <p>Wore Jersey #20. Standout winger and high-impact forward.</p>
+                        </div>
+                        <div class="pdf-time-item">
+                            <span class="pdf-time-date">2024 (Apr - Oct)</span>
+                            <strong>Black Squad (Puchong)</strong>
+                            <p>Midfielder & winger in regional amateur divisions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pdf-section">
+                    <h3>KEY ATTRIBUTES</h3>
+                    <table class="pdf-attributes-table">
+                        <tr><td>Speed & Acceleration</td><td>90%</td></tr>
+                        <tr><td>Attacking Positioning</td><td>87%</td></tr>
+                        <tr><td>Dribbling & 1v1s</td><td>85%</td></tr>
+                        <tr><td>Passing & Playmaking</td><td>88%</td></tr>
+                        <tr><td>Tactical Adaptability</td><td>95%</td></tr>
+                    </table>
+                </div>
+
+                <div class="pdf-footer-note">
+                    <p>Generated via Mahathesh Mavalavan's Portfolio Link.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
